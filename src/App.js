@@ -1,8 +1,9 @@
+import './App.css';
 import Messenger from "./components/Messenger";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Messenger />
     </div>
   );
